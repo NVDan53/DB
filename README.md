@@ -14,10 +14,10 @@
 
 * Users
   1. Create
-  **URL: POST `localhost:3000/register`
+  **URL: POST `localhost:3000/users/register`
   **Body: `name, email, password`
   2. Authenticate
-  **URL: POST `localhost:3000/authenticate`
+  **URL: POST `localhost:3000/users/authenticate`
   **Body: `email, password`
 * Movies
   1. Create
